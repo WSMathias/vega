@@ -24,3 +24,7 @@ coverage.txt
 .env*
 
 bin/
+
+build
+
+node_modules
