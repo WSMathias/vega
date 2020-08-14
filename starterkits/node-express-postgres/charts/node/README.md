@@ -42,14 +42,14 @@ The following table lists the configurable parameters of the node chart and thei
 
 | Parameter                               | Description                                                                 | Default                                                 |
 | --------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- |
-| `global.imageRegistry`                  | Global Docker image registry                                                | `docker.io`                                             |
-| `node.registry`                         | Node image registry                                                         | `nil`                                                   |
+| `global.imageRegistry`                  | Global Docker image registry                                                | `nil`                                             |
+| `node.registry`                         | Node image registry                                                         | `docker.io`                                                   |
 | `node.repository`                       | Node image name                                                             | `srijanlabs/node:demo`                                 |
 | `node.pullPolicy`                       | Node image pull policy                                                      | `IfNotPresent`                                          |
 | `node.extraEnv`                         | Node container environment variables                                        | `nill`                                                  |
 | `node.command`                          | Node container entry point                                                  | from image                                              |
 | `node.arg`                              | Node container arguments                                                    | from image                                              |
-| `node.port`                             | Node container listing port                                                 | 9000                                                    |
+| `node.port`                             | Node container listing port                                                 | 3000                                                    |
 | `nameOverride`                          | String to partially override node.fullname template                         | `nil`                                                   |
 | `fullnameOverride`                      | String to fully override node.fullname template                             | `nil`                                                   |
 | `applicationKind`                       | Deployment or ReplicaSet                                                    | `Deployment`                                            |

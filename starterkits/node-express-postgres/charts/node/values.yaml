@@ -3,11 +3,11 @@
 ## Current available global Docker image parameters: imageRegistry and imagePullSecrets
 ##
 global:
-  imageRegistry: docker.io
+  # imageRegistry: docker.io
 
 node:
   image:
-    # registry: docker.io
+    registry: docker.io
     repository: srijanlabs/node:demo
     ## tag:
     ## Specify a imagePullPolicy
